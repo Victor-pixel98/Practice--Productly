@@ -309,32 +309,27 @@ button {
     white-space: nowrap;
 }
 
-.team__item-text.team__item-text--left{
+.team__item-text.team__item-text--left {
     top: -41px;
     left: 62px;
     right: auto;
 }
 
-.team__item-text--right::after, 
-.team__item-text--right::before, 
-.team__item-text--left::after, 
-.team__item-text--left::before {
+.team__item-text--right::after, .team__item-text--right::before, .team__item-text--left::after, .team__item-text--left::before {
     content: "";
     position: absolute;
     background-color: #fff;
     border-radius: 50%;
 }
 
-.team__item-text--right::after, 
-.team__item-text--left::after {
+.team__item-text--right::after, .team__item-text--left::after {
     height: 17px;
     width: 17px;
     bottom: -7px;
     right: 30px;
 }
 
-.team__item-text--right::before, 
-.team__item-text--left::before {
+.team__item-text--right::before, .team__item-text--left::before {
     width: 9px;
     height: 9px;
     bottom: -20px;
@@ -376,4 +371,83 @@ button {
     color: #fff;
     padding: 15px 30px 14px;
     margin-bottom: 45px;
+}
+
+.blog {
+    padding: 30px 0 120px;
+}
+
+.blog__title {
+    font-size: 34px;
+    line-height: 51px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.blog__text {
+    margin-bottom: 55px;
+}
+
+.slider {
+    margin: 0 -20px;
+}
+
+.slider__item {
+    padding: 0 20px;
+}
+
+.slider__item-img {
+    width: 348px;
+    height: 185px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-bottom: 25px;
+}
+
+.slider__item-info {
+    margin-bottom: 12px;
+    line-height: 28px;
+
+}
+
+.slider__item-author {
+    text-decoration: none;
+    font-weight: 700;
+    color: #544837;
+}
+
+.slider__item-title {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+    transition: all .3s;
+    margin-bottom: 84px;
+    display: inline-block;
+}
+
+.slider__item-title:hover{
+    color: #FF9900;
+}
+
+.slick-dots{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.slick-dots button{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: none;
+    font-size: 0;
+    background-color: #efefef;
+    padding: 0;
+    margin: 0 5px;
+}
+
+.slick-dots .slick-active button{
+    background-color: #ff9900;
 }
