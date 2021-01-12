@@ -408,7 +408,6 @@ button {
 .slider__item-info {
     margin-bottom: 12px;
     line-height: 28px;
-
 }
 
 .slider__item-author {
@@ -427,17 +426,17 @@ button {
     display: inline-block;
 }
 
-.slider__item-title:hover{
+.slider__item-title:hover {
     color: #FF9900;
 }
 
-.slick-dots{
+.slick-dots {
     list-style: none;
     display: flex;
     justify-content: center;
 }
 
-.slick-dots button{
+.slick-dots button {
     width: 16px;
     height: 16px;
     border-radius: 50%;
@@ -448,6 +447,99 @@ button {
     margin: 0 5px;
 }
 
-.slick-dots .slick-active button{
+.slick-dots .slick-active button {
     background-color: #ff9900;
 }
+
+.footer__inner {
+    padding: 105px 0 100px;
+    border-top: 1px solid rgba(188, 208, 229, 0.496913);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__menu {
+    width: 135px;
+}
+
+.footer__menu-title, 
+.footer__form-text {
+    margin-bottom: 35px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #2F281E;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__menu-link {
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
+    text-decoration: none;
+}
+
+.footer__form {
+    width: 330px;
+}
+
+.footer__form-input {
+    height: 48px;
+    padding: 0 15px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 21px;
+    display: inline-block;
+
+}
+.footer__form-input::placeholder{
+    font-size: 16px;
+    line-height: 28px;
+    color: #BCD0E5;
+}
+
+.footer__form-btn {
+    background-color: #ff9900;
+    border-radius: 4px;
+    color: #fff;
+    padding: 8px 15px 7px;
+    border: none;
+}
+
+.menu__btn{
+    width: 40px;
+    height: 30px;
+    display: none;
+}
+
+.menu__btn span{
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    top: 14px;
+}
+
+.menu__btn::after,
+.menu__btn::before{
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background-color: #000;
+    left: 0;
+}
+
+.menu__btn::before {
+    top: 0;
+}
+
+.menu__btn::after {
+    bottom: 0;
+}
+    
